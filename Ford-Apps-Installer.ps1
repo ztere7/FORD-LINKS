@@ -5,7 +5,7 @@ do {
     [Net.SecurityProtocolType]::Tls13
 
     "FORD APPLICATIONS INSTALLER/UPDATER"
-    "Version 1.0.0"
+    "Version 1.0.1"
     "Check for updates at https://github.com/ztere7/FORD-LINKS"
     Write-Output ""
 
