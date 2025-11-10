@@ -1,4 +1,9 @@
-﻿do {
+do {
+
+		[Net.ServicePointManager]::SecurityProtocol = `
+    [Net.SecurityProtocolType]::Tls12, `
+    [Net.SecurityProtocolType]::Tls13
+
     "FORD APPLICATIONS INSTALLER/UPDATER"
     "Version 1.0.0"
     "Check for updates at https://github.com/ztere7/FORD-LINKS"
