@@ -1,6 +1,6 @@
 do {
 
-		[Net.ServicePointManager]::SecurityProtocol = `
+	[Net.ServicePointManager]::SecurityProtocol = `
     [Net.SecurityProtocolType]::Tls12, `
     [Net.SecurityProtocolType]::Tls13
 
@@ -70,5 +70,6 @@ do {
     Write-Output ""
     Write-Output ""
 }
+
 
 while($true)
